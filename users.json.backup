@@ -1,0 +1,15 @@
+{
+    "ryan": {
+        "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+        "created_at": "2025-11-03 00:00:33",
+        "last_login": "2025-11-03 14:57:26",
+        "failed_attempts": 1
+    },
+    "administrator": {
+        "password": "61b6e11ab630cd6174fe9a198edee3d4ae4b6e066eeec5e911879d6d6776a201:b97523d384e141563e19a8a28a8ec40e",
+        "role": "admin",
+        "created_at": "2024-01-01 00:00:00",
+        "last_login": "2025-11-05 13:40:17",
+        "failed_attempts": 0
+    }
+}
