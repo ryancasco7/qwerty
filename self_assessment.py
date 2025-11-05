@@ -81,7 +81,7 @@ def show_self_assessment(df):
                 domain_cols_list = sorted(domain_mapping[domain_num])
                 domain_name = domain_names.get(domain_num, f"Domain {domain_num}")
                 
-                with st.expander(f"📚 {domain_num}. {domain_name}", expanded=(domain_num == '1')):
+                with st.expander(f"📚 {domain_num}. {domain_name}", expanded= True)):
                     for comp_col in domain_cols_list:
                         comp_name = comp_col.split('. ', 1)[1] if '. ' in comp_col else comp_col
                         
@@ -192,5 +192,6 @@ def show_self_assessment(df):
         except Exception as e:
             st.error(f"Error predicting cluster: {e}")
             st.write("Please check your inputs and try again.")
+
 
 
