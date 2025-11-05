@@ -91,7 +91,7 @@ def show_self_assessment(df):
                         rating = st.radio(
                             f"Rate: {comp_name}",
                             options=list(range(MIN_RATING, MAX_RATING + 1)),
-                            index=2,
+                            index=0,
                             key=f"form_{comp_col}",
                             horizontal=True,
                             label_visibility="collapsed"
@@ -192,4 +192,5 @@ def show_self_assessment(df):
         except Exception as e:
             st.error(f"Error predicting cluster: {e}")
             st.write("Please check your inputs and try again.")
+
 
